@@ -100,15 +100,14 @@ npm install
 Create a `.env` file in the project root.
 
 ```env
-PORT=3001
+PORT=your_port
 
-DB_USER=sa
-DB_PASSWORD=YOUR_LOCAL_SQL_SERVER_PASSWORD
-DB_SERVER=localhost
-DB_PORT=1433
-DB_NAME=TonaireAssessmentDB
-DB_ENCRYPT=false
-DB_TRUST_SERVER_CERTIFICATE=true
+DB_SERVER=your_server
+DB_PORT=your_port
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_DATABASE=your_database_name
+
 ```
 
 Replace the password with your own local SQL Server password.
